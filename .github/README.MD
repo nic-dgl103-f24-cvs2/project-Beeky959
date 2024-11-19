@@ -1,72 +1,126 @@
-Project Plan for Woodland Gardens Website
+Big Brisket Barbecue Website Redesign
+
 Project Overview
-Client Name: Woodland Gardens
-Project Goal: Redesign the Woodland Gardens website to create a more visually appealing, user-friendly, and responsive experience. The current site could benefit from improved layout, navigation, and mobile compatibility to enhance user engagement and accessibility.
+
+Client Name: Big Brisket Barbecue
+
+Project Goal: Redesign the "Big Brisket Barbecue" website to create a more visually appealing, user-friendly, and responsive experience. The current site could benefit from improved layout, navigation, and mobile compatibility to enhance user engagement and accessibility.
+
 Target Audience
+
 Primary Audience:
 
-Local community members and visitors interested in gardening, plants, and outdoor spaces.
-Customers looking to purchase plants, flowers, and gardening supplies.
-Individuals seeking gardening advice or information on plant varieties.
+Local community members and BBQ enthusiasts.
+
+Customers looking to purchase authentic, slow-cooked BBQ dishes.
+
+Individuals seeking information about menu options, operating hours, and contact details.
+
 Audience Needs:
 
-Easy navigation to explore plant varieties and products.
+Easy navigation to explore the menu and offerings.
+
 Quick access to contact information, hours of operation, and location details.
-Information on seasonal plant availability and gardening tips.
+
+Information about popular dishes and specials.
+
 Purpose of the Website
-Main Goal: To showcase Woodland Gardens’ products and services, making it easy for customers to learn about available plants, gardening supplies, and seasonal offerings.
-Secondary Goal: To attract new customers to the physical location and increase community engagement through informative content and an inviting online presence.
+
+Main Goal: To showcase Big Brisket Barbecue's dishes and services, making it easy for customers to learn about menu items, specials, and the restaurant atmosphere.
+
+Secondary Goal: To attract new customers to the restaurant location and increase community engagement through informative and inviting online content.
+
 Page Structure
-Since we're focusing on three pages, here’s a suggested breakdown:
+
+Since we're focusing on three pages, here’s a breakdown:
 
 Homepage
 
 Main Features:
-Hero image with an introductory message about Woodland Gardens.
-Highlights of seasonal plants or popular items.
-Links to shop categories (like flowers, shrubs, trees).
-Contact information and hours of operation.
-About Page
 
-Content to Include:
-Brief history of Woodland Gardens.
-Overview of its mission and values, especially regarding sustainability or community impact.
-Photos of the location and staff members.
-Products Page
+Hero Section: Highlight the restaurant's offerings with engaging and vibrant imagery.
+
+About Section: Provide a brief introduction to Big Brisket Barbecue, with a smaller and more subtle owner photo.
+
+Menu Highlights: Showcase some popular dishes to draw attention.
+
+Call to Action: Encourage users to explore the menu .
+
+Contact Information: Quick access to phone number, email, address, and hours of operation.
+
+Menu Page
 
 Main Features:
-Categories of products offered (e.g., flowers, trees, shrubs).
-Image and description of each product type.
-Seasonal specials or highlights.
+
+Menu Categories: Include separate sections for appetizers, main courses, sides, and desserts.
+
+Popular Dishes: Highlight best-sellers with visual cues.
+
+Contact Page
+
+Main Features:
+
+Contact Information: Provide phone number, email, and a contact form.
+
+Operating Hours: List the business hours for customer convenience.
+
+Map Section: Include an embedded map to show the physical location of the restaurant.
+
 Content Blocks
-Here’s a detailed list of content blocks you might include for each page:
 
 Homepage
 
-Hero Section: A large, welcoming image representing Woodland Gardens, with a tagline.
-Seasonal Highlights: A block showcasing seasonal plants with small images and brief descriptions.
-Shop Categories: Quick links to different product categories (e.g., flowers, shrubs, trees).
-Contact Information: Phone number, email, address, and hours of operation, potentially in the footer for easy access on every page.
-About Page
+Hero Section: A large, welcoming image representing Big Brisket Barbecue, with a tagline.
 
-Introduction: An overview of Woodland Gardens, including its history and what makes it unique.
-Mission & Values: A short section on the business’s commitment to sustainable practices and community engagement.
-Team/Location Photos: Visuals that make the business feel more approachable and community-oriented.
-Products Page
+About Section: A brief introduction, including an overview of the restaurant's history and the owner.
 
-Product Categories: Sections for each product type, such as:
-Flowers: Image and description.
-Trees: Image and description.
-Shrubs: Image and description.
-Seasonal Specials: Section for any highlighted products based on season or special promotions.
+Menu Highlights: Showcase popular dishes with small images and descriptions.
+
+Call to Action: Encourage users to explore the full menu or contact the restaurant.
+
+Contact Information: Display in the footer for easy access.
+
+Menu Page
+
+Menu Categories: Sections for each product type, such as:
+
+Appetizers: Image and description.
+
+Main Courses: Image and description.
+
+Desserts: Image and description.
+
+Popular Dishes: Section highlighting best-sellers and seasonal specials.
+
+Contact Page
+
+Contact Information: Phone number, email, and contact form.
+
+Operating Hours: Clearly listed for customer convenience.
+
+Map Section: A map to help users locate the restaurant.
+
 Layout Considerations
-Responsive Design:
+
+Responsive Design
 
 The website will be designed mobile-first to ensure a smooth experience on all devices, then adapted for desktop.
-Navigation will be simplified for mobile with a collapsible menu, while the desktop layout will allow for more visible links.
-Clear visual hierarchy to make it easy for users to find key information (e.g., contact details, hours, product categories).
-Visual Style:
 
-Use a color palette that reflects nature (greens, earthy tones) to create a welcoming and organic feel.
-Large, high-quality images to showcase plants and garden items.
-Consistent font choices to improve readability and align with the natural theme of the business.
+Navigation will be simplified for mobile with a collapsible menu, while the desktop layout will allow for more visible links.
+
+Clear visual hierarchy to make it easy for users to find key information (e.g., contact details, hours, product categories).
+
+Visual Style
+
+Use a color palette that reflects BBQ and warmth (reds, browns, and earthy tones) to create a welcoming and appetizing feel.
+
+Large, high-quality images to showcase dishes and create a visual impact.
+
+Consistent font choices to improve readability and align with the brand's personality.
+
+Technical Information
+
+Repository: The code will be stored in a GitHub repository.
+
+
+
