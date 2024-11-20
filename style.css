@@ -1,3 +1,51 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Navigation Styles */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d9534f;
+}
+/* Responsive image class for hero image */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: for a softer edge look */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
 /* Mobile Styles */
 body {
     font-family: 'Lato', sans-serif;
@@ -11,10 +59,14 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 80px;
 }
 
 .nav-links {
@@ -43,21 +95,24 @@ body {
 .toggle-menu {
     color: white;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 .hero {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px 20px;
+    margin-top: 60px; /* To offset the fixed header */
 }
 
 .hero-image {
     width: 100%;
-    height: auto;
+    max-height: 300px;
+    object-fit: cover;
 }
 
 .hero-text h1 {
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #333;
 }
 
@@ -71,6 +126,42 @@ body {
     border-radius: 5px;
 }
 
+.testimonials {
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.featured-dishes {
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
 .footer-content {
     text-align: center;
     padding: 20px;
@@ -79,19 +170,13 @@ body {
     font-size: 0.9rem;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.social-links img {
-    width: 25px;
-    height: auto;
-    margin: 0 10px;
+.footer-content p {
+    margin: 5px 0;
 }
 
 /* Toggle navigation display */
 .show {
     display: flex !important;
 }
+
+
