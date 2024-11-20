@@ -153,12 +153,20 @@ body {
         text-transform: uppercase; /* To match the style of the reference image */
     }
 
-    .hero-image {
-        max-width: 80%;  /* Adjust the width of the image */
-        max-height: 400px;  /* Set a maximum height to control the image size */
-        margin: 0 auto;  /* Center the image */ 
+    @media (min-width: 768px) {
+        .hero-image {
+            width: 50%; /* Reduce the width of the image to 50% */
+            max-height: 300px; /* Further limit the height to make it appear smaller */
+            object-fit: cover;
+            margin: 0 auto; /* Ensure it's centered */
+            display: block; /* Makes sure it is displayed properly */
+        }
+    
+        .hero-text {
+            padding-top: 20px; /* Add some space between text and image */
+        }
     }
-}
+
     .featured-dishes {
         max-width: 1200px;
         margin: 0 auto;
