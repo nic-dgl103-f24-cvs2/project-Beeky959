@@ -1,17 +1,138 @@
 /* Base styles */
+/* General Styles */
 body {
     font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #ffffff; /* Keep the body background clean and bright */
+    color: #333; /* Default text color for readability */
 }
 
-/* Navigation */
+/* Header and Navigation */
 .main-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px 40px;
+    background-color: #333; /* Dark background to align with logo colors */
+}
+
+.nav-links a {
+    color: #ffffff; /* White for better contrast against the dark background */
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #d9534f; /* Accent color on hover for better interactivity */
+}
+
+/* Hero Section */
+.hero {
+    padding: 20px 40px;
+    background-color: #f5f5f5; /* Light gray background to create separation */
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 400px; /* Reduce height for a better balance */
+    object-fit: cover;
+    border-radius: 8px; /* Slight rounding for a softer look */
+}
+
+.hero-text h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem; /* Increased size for prominence */
+    color: #d9534f; /* Accent color to draw attention */
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #555; /* A softer gray for subtext */
+    text-align: center;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #d9534f; /* Use the accent color for the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-button:hover {
+    background-color: #c43d37; /* Slightly darker on hover */
+}
+
+/* Testimonials Section */
+.testimonial-container {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fdf1e0; /* Warm tone to separate testimonials visually */
+}
+
+.testimonial-container h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background: #ffffff;
     padding: 20px;
-    background-color: #333;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Featured Dishes Section */
+.featured-dishes {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-dishes h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #d9534f; /* Use the accent color to highlight this section */
+    margin-bottom: 20px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.carousel-item {
+    max-width: 45%;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 8px; /* Rounded corners to match overall design */
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Footer Section */
+.footer-content {
+    padding: 40px 20px;
+    background-color: #333; /* Dark background for footer */
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.footer-content a {
+    color: #d9534f; /* Accent color links */
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
 }
 
 .logo {
@@ -156,7 +277,7 @@ body {
     @media (min-width: 768px) {
         .hero-image {
             width: 50%; /* Reduce the width of the image to 50% */
-            max-height: 300px; /* Further limit the height to make it appear smaller */
+            max-height: 200px; /* Further limit the height to make it appear smaller */
             object-fit: cover;
             margin: 0 auto; /* Ensure it's centered */
             display: block; /* Makes sure it is displayed properly */
