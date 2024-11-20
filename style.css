@@ -154,10 +154,11 @@ body {
     }
 
     .hero-image {
-        max-height: 600px;
-        object-fit: cover;
+        max-width: 80%;  /* Adjust the width of the image */
+        max-height: 400px;  /* Set a maximum height to control the image size */
+        margin: 0 auto;  /* Center the image */ 
     }
-
+}
     .featured-dishes {
         max-width: 1200px;
         margin: 0 auto;
@@ -169,23 +170,31 @@ body {
         font-size: 2rem;
     }
 
-    .carousel {
-        display: flex;
-        justify-content: space-evenly;
-        gap: 20px;
-        padding: 20px 0;
-    }
-
-    .carousel-item {
-        flex: 1;
-        max-width: 45%;
-    }
-
-    .testimonial-container {
-        max-width: 1000px;
-        margin: 0 auto;
-        text-align: center;
-        padding: 40px 20px;
-    }
-}
-
+    
+        /* Center the "What Our Customers Say" section */
+        .testimonials {
+            text-align: center;
+        }
+    
+        .testimonial-container {
+            margin: 0 auto;
+            max-width: 60%; /* Adjust to fit the screen better */
+        }
+        @media (min-width: 768px) {
+            .carousel {
+                display: flex;
+                justify-content: space-around;
+                gap: 20px;
+            }
+        
+            .carousel-item {
+                text-align: center;
+            }
+        
+            .carousel-item img {
+                width: 300px; /* Set a standard width */
+                height: 200px; /* Set a standard height */
+                object-fit: cover; /* Crop the image to fit the specified dimensions */
+            }
+        }
+        
