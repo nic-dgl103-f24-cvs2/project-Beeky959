@@ -92,7 +92,7 @@ body {
     border-radius: 5px;
 }
 /* Adjust carousel images for mobile view */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .carousel-item {
         max-width: 100%;
     }
@@ -122,3 +122,70 @@ body {
     color: white;
     font-size: 0.9rem;
 }
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+    .main-nav {
+        padding: 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        position: static;
+        background-color: transparent;
+        width: auto;
+        padding: 0;
+        gap: 20px; /* Added spacing between links */
+    }
+
+    .nav-links li {
+        margin: 0;
+    }
+
+    .nav-links a {
+        color: white;
+        font-weight: 500;
+        text-transform: uppercase; /* To match the style of the reference image */
+    }
+
+    .hero-image {
+        max-height: 600px;
+        object-fit: cover;
+    }
+
+    .featured-dishes {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    .featured-dishes h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .carousel {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .carousel-item {
+        flex: 1;
+        max-width: 45%;
+    }
+
+    .testimonial-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 40px 20px;
+    }
+}
+
