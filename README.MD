@@ -83,6 +83,7 @@ Text: “This is a fictional website that was designed and coded as an education
 # Hero Section
 Heading: “Get in Touch”
 Content: Phone number, email, and business hours.
+Social media 
 Contact Form
 Name, email, and message fields.
 Map Section
