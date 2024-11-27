@@ -365,5 +365,133 @@ body {
             margin: 10px 0; /* Add vertical spacing between paragraphs */
         }
     }
-    
+    /* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
 
+h1, p {
+    text-align: center;
+}
+
+/* Navigation Bar */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #333; /* Dark background */
+    position: sticky; /* Stick to top */
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.toggle-menu {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #d9534f; /* Accent color */
+}
+
+/* Show Navigation Links on Toggle */
+.menu-toggle:checked ~ .nav-links {
+    display: flex; /* Show menu */
+}
+
+/* Desktop Navigation */
+@media (min-width: 768px) {
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+    }
+
+    .toggle-menu {
+        display: none; /* Hide hamburger menu */
+    }
+
+    .nav-links {
+        display: flex; /* Show links horizontally */
+        position: static;
+        background-color: transparent;
+        flex-direction: row;
+        gap: 20px;
+        box-shadow: none; /* Remove dropdown styling */
+    }
+}
+
+/* Menu Section */
+.menu-header {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.menu-header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #d9534f; /* Accent color */
+    margin-bottom: 10px;
+}
+
+.menu-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
