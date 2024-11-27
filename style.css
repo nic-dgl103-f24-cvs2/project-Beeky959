@@ -28,12 +28,11 @@ body {
 }
 
 .hero-image {
-    width: 100%;
-    max-height: 400px; /* Reduce height for a better balance */
-    object-fit: cover;
-    border-radius: 8px; /* Slight rounding for a softer look */
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Scale the image proportionally */
+    border-radius: 8px; /* Keep consistent rounding */
 }
-
 .hero-text h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 2rem; /* Increased size for prominence */
@@ -61,26 +60,70 @@ body {
     background-color: #c43d37; /* Slightly darker on hover */
 }
 
-/* Testimonials Section */
+/* Testimonials Section (Default / Mobile) */
 .testimonial-container {
-    padding: 40px 20px;
+    padding: 20px;
     text-align: center;
-    background-color: #fdf1e0; /* Warm tone to separate testimonials visually */
-}
-
-.testimonial-container h2 {
-    font-family: 'Oswald', sans-serif;
-    color: #333;
-    margin-bottom: 20px;
+    background-color: #fdf1e0; /* Warm background */
+    margin-top: 20px;
+    border-radius: 8px;
 }
 
 .testimonial {
-    background: #ffffff;
-    padding: 20px;
+    background: #ffffff; /* White card background */
+    padding: 15px;
     border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 90%; /* Constrain width for small screens */
+    text-align: left; /* Align text for readability */
 }
+
+.testimonial p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.testimonial span {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #333;
+}
+
+/* Upcoming Events Section (Default / Mobile) */
+.events {
+    padding: 20px;
+    background-color: #fdf1e0; /* Consistent warm tone */
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.events h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #d9534f;
+    font-size: 1.5rem; /* Smaller size for mobile */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d9534f; /* Thinner underline for mobile */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.events p {
+    color: #333;
+    font-size: 1rem; /* Standard size for mobile */
+    margin: 5px 0;
+}
+
+/* Hover Effect for Events Section */
+.events p:hover {
+    color: #d9534f;
+    transition: color 0.3s ease-in-out;
+}
+
 
 /* Featured Dishes Section */
 .featured-dishes {
@@ -304,35 +347,67 @@ body {
     }
 
     @media (min-width: 768px) {
-        .hero-image {
-            width: 50%; /* Reduce the width of the image to 50% */
-            max-height: 200px; /* Further limit the height to make it appear smaller */
-            object-fit: cover;
-            margin: 0 auto; /* Ensure it's centered */
-            display: block; /* Makes sure it is displayed properly */
-        }
+    /* Hero Image Adjustments for Desktop */
+.hero-image {
+    width: 50%; /* Reduce width for better balance */
+    max-width: 600px; /* Prevent it from becoming too large */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure proportional scaling */
+    display: block; /* Block display for proper centering */
+    margin: 20px auto; /* Center and add spacing around the image */
+    border-radius: 10px; /* Slight rounding for a polished look */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
     
         .hero-text {
             padding-top: 20px; /* Add some space between text and image */
         }
     }
-    /* Events Section for Desktop */
-.events {
-    padding: 40px 20px; /* Larger padding for better spacing */
-    max-width: 1200px; /* Center and constrain width */
-    margin: 0 auto; /* Center the section on the page */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
-}
-
-.events h2 {
-    font-size: 2rem; /* Larger heading for desktop */
-    margin-bottom: 20px;
-}
-
-.events p {
-    font-size: 1.2rem; /* Slightly larger text for better readability */
-    margin: 15px 0;
-}
+    @media (min-width: 768px) {
+        /* Testimonials Section (Desktop) */
+        .testimonial-container {
+            padding: 40px 20px;
+            max-width: 1200px; /* Constrain width for readability */
+            margin: 0 auto; /* Center the container */
+        }
+    
+        .testimonial {
+            max-width: 600px; /* Constrain width of individual cards */
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Stronger shadow for desktop */
+        }
+    
+        .testimonial p {
+            font-size: 1.2rem; /* Slightly larger text */
+            margin-bottom: 10px;
+        }
+    
+        .testimonial span {
+            margin-top: 10px;
+        }
+    
+        /* Upcoming Events Section (Desktop) */
+        .events {
+            padding: 40px 20px;
+            max-width: 1200px; /* Constrain width for better layout */
+            margin: 20px auto; /* Center align */
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Enhance shadow */
+        }
+    
+        .events h2 {
+            font-size: 2rem; /* Larger heading */
+            margin-bottom: 20px;
+            border-bottom: 3px solid #d9534f; /* Thicker underline */
+        }
+    
+        .events p {
+            font-size: 1.2rem; /* Larger font for better readability */
+            margin: 10px 0;
+        }
+    }
+    
 
 
     .featured-dishes {
