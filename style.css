@@ -133,35 +133,70 @@ body {
 /* Testimonials Section */
 .testimonial-container {
     text-align: center;
-    background-color: #fdf1e0;
+    background-color: #fdf1e0; /* Light warm background */
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 8px; /* Rounded corners */
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 800px; /* Center the container and set a max width */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
+/* Individual Testimonial */
 .testimonial {
-    background: white;
-    padding: 15px;
+    background: #ffffff; /* White card background */
+    padding: 10px;
     border-radius: 8px;
-    margin: 10px auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 90%;
+    margin: 15px auto; /* Vertical spacing between testimonials */
+    max-width: 600px; /* Limit the width of each testimonial */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+    display: flex; /* Use flexbox for better alignment */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Space between text and signature */
+    gap: 10px;
 }
 
+/* Testimonial Text */
 .testimonial p {
     font-style: italic;
     color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
 }
 
+/* Testimonial Signature */
 .testimonial span {
-    display: block;
     text-align: right;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
     color: #333;
 }
 
+/* Desktop-specific Media Query */
+@media (min-width: 768px) {
+    .testimonial-container {
+        max-width: 1200px; /* Adjust width for desktop view */
+    }
+
+    .testimonial {
+        flex: 0 0 calc(50% - 20px); /* Two testimonials per row */
+        padding: 25px; /* Increase padding for desktop */
+    }
+}
+
+/* Mobile-specific Styles */
+@media (max-width: 768px) {
+    .testimonial {
+        flex: 0 0 100%; /* Full width for smaller screens */
+    }
+}
+/* Mobile-specific Styles */
+@media (max-width: 768px) {
+    .testimonial {
+        flex: 0 0 100%; /* Full width for smaller screens */
+    }
+}
 /* Upcoming Events Section */
 .events {
     text-align: center;
