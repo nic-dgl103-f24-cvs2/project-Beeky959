@@ -257,14 +257,21 @@ body {
     }
 }
 
-/* Footer */
-.footer-content {
-    text-align: center;
+/* Footer Section */
+.footer {
     padding: 20px;
-    background-color: #333;
-    color: white;
-    font-size: 0.9rem;
+    background-color: #333; /* Dark background for contrast */
+    color: white; /* Text stands out against dark background */
+    text-align: center; /* Center-align text */
+    font-size: 0.9rem; /* Slightly smaller text for a footer */
+    border-top: 2px solid #d9534f; /* Accent color to separate footer */
 }
+
+.footer-content p {
+    margin: 10px 0; /* Add space between paragraphs */
+    line-height: 1.5; /* Improve readability */
+}
+
 
 /* Desktop Styles */
 @media (min-width: 768px) {
@@ -366,4 +373,15 @@ body {
                 object-fit: cover; /* Crop the image to fit the specified dimensions */
             }
         }
-        
+         /* Footer Enhancements for Desktop */
+        .footer {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Spread content across the footer */
+    align-items: center; /* Center-align vertically */
+    padding: 20px 40px; /* Increase padding for desktop */
+        }
+
+        .footer-content p {
+    text-align: left; /* Align text to the left for desktop */
+    margin: 5px 0; /* Reduce vertical spacing */
+        }

@@ -43,6 +43,7 @@ Showcase the restaurant menu, story, and contact information effectively.
 # Hero Section
 Heading: “Experience the Best Barbecue in Comox Valley.”
 Image: Large, high-quality photo of brisket.
+**Upcoming Events Section**: Showcasing weekly specials and live music events.
 Featured Dishes Section
 Heading: “Our Signature Dishes”
 Content: Showcase 2 popular items with small images and descriptions.
