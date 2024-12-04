@@ -66,6 +66,10 @@ body {
     background-color: #444;
     border-radius: 4px;
 }
+iframe {
+    border: none; /* Removes the border around the iframe */
+}
+
 
 /* Mobile View */
 @media (max-width: 768px) {
@@ -141,6 +145,8 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
+
+
 /* Individual Testimonial */
 .testimonial {
     background: #ffffff; /* White card background */
@@ -154,7 +160,9 @@ body {
     justify-content: space-between; /* Space between text and signature */
     gap: 10px;
 }
-
+.testimonials h2{
+    text-align: center;
+}
 /* Testimonial Text */
 .testimonial p {
     font-style: italic;
