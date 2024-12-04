@@ -437,34 +437,46 @@ iframe {
     margin-bottom: 30px;
 }
 
-.address, .hours {
-    flex: 1 1 calc(50% - 20px);
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+.hours {
+    margin: 20px 0;
+    text-align: center;
 }
 
-.address h2, .hours h2 {
-    font-size: 1.5rem;
-    color: #d9534f;
+.hours h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
-.address p, .hours ul {
-    font-size: 1rem;
-    color: #333;
-    line-height: 1.6;
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: left;
 }
 
-.hours ul {
-    list-style: none;
-    padding: 0;
+table thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
 
-.hours li {
-    margin-bottom: 5px;
+table tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
 }
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
 
 .contact-form {
     background-color: #fff;
