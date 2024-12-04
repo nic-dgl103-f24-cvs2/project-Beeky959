@@ -39,7 +39,7 @@ Showcase the restaurant menu, story, and contact information effectively.
 ## Home
 # Menu
 # Contact
-# About
+# About 
 # Hero Section
 Heading: “Experience the Best Barbecue in Comox Valley.”
 Video : Includes a video 
@@ -85,6 +85,8 @@ Mobile First: Optimized for mobile users and adapted for desktop.
 Easy Navigation: Collapsible menu for smaller devices.
 Accessibility: Proper color contrast, alt tags for images, and keyboard navigation.
 
+
+#### only 3 required exceptional.
 ## About Us Page
 # Header
 Same as Homepage.
