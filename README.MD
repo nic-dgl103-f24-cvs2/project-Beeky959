@@ -38,8 +38,8 @@ Showcase the restaurant menu, story, and contact information effectively.
 # Navigation:
 ## Home
 # Menu
-# About
 # Contact
+# About
 # Hero Section
 Heading: “Experience the Best Barbecue in Comox Valley.”
 Video : Includes a video 
@@ -67,6 +67,24 @@ Short description
 Price
 # Footer
 Same as Homepage.
+
+## Contact Page
+# Hero Section
+Heading: “Get in Touch”
+Content: Phone number, email, and business hours.
+Social media 
+Contact Form
+Name, email, and message fields.
+Map Section
+Embedded map showing the restaurant’s location.
+
+# Footer
+Text: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
+Responsive Design and Accessibility
+Mobile First: Optimized for mobile users and adapted for desktop.
+Easy Navigation: Collapsible menu for smaller devices.
+Accessibility: Proper color contrast, alt tags for images, and keyboard navigation.
+
 ## About Us Page
 # Header
 Same as Homepage.
@@ -79,18 +97,3 @@ Content: Share information about how the restaurant started, its values, and the
 Include a smaller, subtle owner photo.
 # Footer
 Text: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
-## Contact Page
-# Hero Section
-Heading: “Get in Touch”
-Content: Phone number, email, and business hours.
-Social media 
-Contact Form
-Name, email, and message fields.
-Map Section
-Embedded map showing the restaurant’s location.
-# Footer
-Text: “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
-Responsive Design and Accessibility
-Mobile First: Optimized for mobile users and adapted for desktop.
-Easy Navigation: Collapsible menu for smaller devices.
-Accessibility: Proper color contrast, alt tags for images, and keyboard navigation.
